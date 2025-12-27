@@ -1,4 +1,4 @@
-# DOM - C++ Project
+# cmake hello world
 
 A modern C++ project with hot reload capabilities and cross-platform build support for Windows and Linux.
 
@@ -23,16 +23,16 @@ make go
 ```
 dom/
 ├── src/                    # Source files
-│   └── main.cpp           # Main application entry point
-├── include/               # Header files
-├── build/                 # Build outputs (auto-generated)
-│   ├── linux/            # Linux build artifacts
-│   └── windows/          # Windows build artifacts
-├── CMakeLists.txt         # CMake configuration
-├── Makefile              # Build automation
-├── linux.cmake           # Linux toolchain configuration
-├── mingw-w64-x86_64.cmake # Windows toolchain configuration
-└── README.md             # This file
+│   └── main.cpp            # Main application entry point
+├── include/                # Header files
+├── build/                  # Build outputs (auto-generated)
+│   ├── linux/              # Linux build artifacts
+│   └── windows/            # Windows build artifacts
+├── CMakeLists.txt          # CMake configuration
+├── Makefile                # Build automation
+├── linux.cmake             # Linux toolchain configuration
+├── mingw-w64-x86_64.cmake  # Windows toolchain configuration
+└── README.md               # This file
 ```
 
 ## 🛠️ Build Commands
