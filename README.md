@@ -58,19 +58,6 @@ sudo apt install build-essential cmake make
 # Add to PATH: C:\mingw64\bin and CMake installation directory
 ```
 
-## 🚀 Usage Examples
-
-```bash
-# Build the project
-make build
-
-# Clean build folder
-make clean
-
-# Run the program
-make run
-```
-
 ## 📄 License
 
 This project is open source. See LICENSE file for details.
